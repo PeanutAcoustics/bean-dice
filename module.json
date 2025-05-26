@@ -2,9 +2,24 @@
     "id": "bean-dice",
     "title": "Bean Dice",
     "description": "A simple module to add bean textures to Dice-So-Nice",
-    "author": "PeanutAcoustics (upstream coffee)",
-    "version": "0.1.2.2",
-    "minimumCoreVersion": "0.12.0",
+    "authors": [
+    {
+      "name": "coffee",
+      "url": "https://github.com/rsbisho2/bean-dice",
+      "flags": {}
+    },
+    {
+        "name": "PeanutAcoustics",
+      "url": "https://github.dev/PeanutAcoustics/bean-dice",
+      "flags": {}   
+    }
+  ],
+    "authors": "PeanutAcoustics",
+    "version": "0.1.2.3",
+    "compatibility": {
+        "minimum": "7",
+        "verified": "12"
+    },
     "scripts": [
         "scripts/main.js"
     ],
@@ -14,6 +29,6 @@
             "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/-/raw/master/module/module.json"
         }
     ],
-    "download": "https://github.com/PeanutAcoustics/bean-dice-under-construction-/archive/refs/heads/master.zip",
-    "manifest": "https://github.com/PeanutAcoustics/bean-dice-under-construction-/raw/refs/heads/master/module.json"
+    "download": "https://github.com/PeanutAcoustics/bean-dice/archive/refs/heads/master.zip",
+    "manifest": "https://github.com/PeanutAcoustics/bean-dice/raw/refs/heads/master/module.json"
   }
