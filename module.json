@@ -4,12 +4,7 @@
   "description": "A simple module to add bean textures to Dice-So-Nice",
   "authors": [
     {
-      "name": "coffee",
-      "url": "https://github.com/rsbisho2/bean-dice",
-      "flags": {}
-    },
-    {
-      "name": "PeanutAcoustics",
+      "name": "PeanutAcoustics (upstream coffee)",
       "url": "https://github.dev/PeanutAcoustics/bean-dice",
       "flags": {}
     }
