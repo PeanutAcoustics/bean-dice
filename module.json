@@ -1,34 +1,33 @@
 {
-    "id": "bean-dice",
-    "title": "Bean Dice",
-    "description": "A simple module to add bean textures to Dice-So-Nice",
-    "authors": [
+  "id": "bean-dice",
+  "title": "Bean Dice",
+  "description": "A simple module to add bean textures to Dice-So-Nice",
+  "authors": [
     {
       "name": "coffee",
       "url": "https://github.com/rsbisho2/bean-dice",
       "flags": {}
     },
     {
-        "name": "PeanutAcoustics",
+      "name": "PeanutAcoustics",
       "url": "https://github.dev/PeanutAcoustics/bean-dice",
-      "flags": {}   
+      "flags": {}
     }
   ],
-    "authors": "PeanutAcoustics",
-    "version": "0.1.2.4",
-    "compatibility": {
-        "minimum": "7",
-        "verified": "12"
-    },
-    "scripts": [
-        "scripts/main.js"
-    ],
-    "relationships.requires": [
-        {
-            "name":"dice-so-nice",
-            "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/-/raw/master/module/module.json"
-        }
-    ],
-    "download": "https://github.com/PeanutAcoustics/bean-dice/archive/refs/heads/master.zip",
-    "manifest": "https://github.com/PeanutAcoustics/bean-dice/raw/refs/heads/master/module.json"
-  }
+  "version": "0.1.2.4",
+  "compatibility": {
+    "minimum": "7",
+    "verified": "12"
+  },
+  "scripts": [
+    "scripts/main.js"
+  ],
+  "relationships.requires": [
+    {
+      "name": "dice-so-nice",
+      "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/-/raw/master/module/module.json"
+    }
+  ],
+  "download": "https://github.com/PeanutAcoustics/bean-dice/archive/refs/heads/master.zip",
+  "manifest": "https://github.com/PeanutAcoustics/bean-dice/raw/refs/heads/master/module.json"
+}
