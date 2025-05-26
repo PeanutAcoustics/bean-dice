@@ -17,12 +17,16 @@
   "scripts": [
     "scripts/main.js"
   ],
-  "relationships.requires": [
-    {
-      "name": "dice-so-nice",
-      "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/-/raw/master/module/module.json"
-    }
-  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "dice-so-nice",
+        "type": "module",
+        "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/-/raw/master/module/module.json",
+        "compatibility": {}
+      }
+    ]
+  },
   "download": "https://github.com/PeanutAcoustics/bean-dice/archive/refs/heads/master.zip",
   "manifest": "https://github.com/PeanutAcoustics/bean-dice/raw/refs/heads/master/module.json"
 }
